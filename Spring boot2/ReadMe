@@ -1,0 +1,16 @@
+对网页响应（get,put..）进行单元测试，并使用Swagger2构建RESTful APIs，显示所有Controller接口
+1、构建一个较为复杂的RESTful API以及单元测试
+2、使用Swagger2构建RESTful API
+       http://localhost:8080/swagger-ui.html
+
+引入Thymeleaf模板，并对异常进行处理
+1、使用Thymeleaf模板引擎渲染web视图
+        <!-- Thymeleaf模板引擎 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        默认静态路径  src/main/resources/../(templates。。)
+
+2、统一异常处理
