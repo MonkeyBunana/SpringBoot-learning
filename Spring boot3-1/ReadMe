@@ -1,0 +1,7 @@
+两种访问方法：JdbcTemplate和Spring-data-jpa
+1、JdbcTemplate
+    不能注入，原因：IDEA背锅，把错误忽略就可以通过测试
+2、报数据库错误可能是没建表
+
+
+使用Spring-data-jpa进行数据访问
