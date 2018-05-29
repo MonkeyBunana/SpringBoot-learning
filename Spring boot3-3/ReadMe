@@ -1,0 +1,6 @@
+Spring Boot中使用Redis数据库
+    RedisConnectionFactory 报错貌似是redis版本太高，换低版本就不会，而且貌似不影响结果
+
+Spring Boot中使用MongoDB数据库
+    win10貌似不能创建MongoDB的服务，不知道低版本怎么样
+    MongoDB分为管理员（admin）和本地用户(local)，貌似不用集群时是使用本地用户进行连接，管理员连接不上
